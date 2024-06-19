@@ -3,6 +3,9 @@
 use App\Http\Controllers\EnkripsiController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\TestviewController;
+use App\Http\Controllers\IdentifikasiController;
+use App\Http\Controllers\DateRangeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +28,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/enkripsi',[EnkripsiController::class,'enkripsi']);
 
 Route::get('/dashboardvendor',[DashboardController::class, 'index']);
+
+Route::get('/dompet',[TestviewController::class, 'index']);
+
+Route::get('/identifikasi', [IdentifikasiController::class, 'index']);
+
+
+//Uas
+Route::get('/daterange', [DateRangeController::class, 'index'])->name('daterange.index');
+Route::post('/identify-weekends', [DateRangeController::class, 'identifyWeekends'])->name('identifyWeekends');
