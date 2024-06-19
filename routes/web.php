@@ -37,3 +37,10 @@ Route::get('/identifikasi', [IdentifikasiController::class, 'index']);
 //Uas
 Route::get('/daterange', [DateRangeController::class, 'index'])->name('daterange.index');
 Route::post('/identify-weekends', [DateRangeController::class, 'identifyWeekends'])->name('identifyWeekends');
+
+//Natan
+Route::get('/', function () {
+    return view('form'); // Tampilkan view form input
+});
+
+Route::post('/hitung', 'App\Http\Controllers\LeapYearController@calculate')->name('hitung'); // Handle submit form
