@@ -203,7 +203,7 @@
     font-size: 12px;
     color: rgba(148, 167, 203, 0.4);
 }
-.pesanan-masuk-vendor-child {
+.pesanan-dalam-proses-vendor-child {
     position: absolute;
     top: 231.5px;
     left: 314.5px;
@@ -214,22 +214,22 @@
 }
 .pesanan-masuk {
     position: absolute;
-    top: 185px;
-    left: 390px;
-    font-size: 30px;
+    top: 187px;
+    left: calc(50% - 576px);
     letter-spacing: -0.03em;
     line-height: 150%;
+    font-weight: 600;
     display: flex;
-    color: #1e8c45;
     align-items: center;
     justify-content: center;
     width: 213px;
     height: 24px;
+    cursor: pointer;
 }
-.pesanan-masuk-vendor-item {
+.pesanan-dalam-proses-vendor-item {
     position: absolute;
-    top: 164px;
-    left: 317px;
+    top: 163px;
+    left: 705px;
     border-radius: 25px 25px 0px 0px;
     border-top: 2px solid #1e8c45;
     border-right: 2px solid #1e8c45;
@@ -237,6 +237,116 @@
     box-sizing: border-box;
     width: 388.5px;
     height: 66px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #a5a49a;
+    width: 38px;
+    height: 25px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34.8px;
+    height: 22.4px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 189px;
+    left: 608px;
+    width: 38px;
+    height: 25px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+}
+.dalam-proses {
+    position: absolute;
+    top: 175px;
+    left: calc(50% - 175px);
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    color: #1e8c45;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #1e8c45;
+    width: 33px;
+    height: 25px;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30.2px;
+    height: 22.4px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 187px;
+    left: 979px;
+    width: 33px;
+    height: 25px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+}
+.ditolak {
+    position: absolute;
+    top: 187px;
+    left: calc(50% + 259px);
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 103px;
+    height: 24px;
+    cursor: pointer;
+}
+.riwayat-pesanan {
+    position: absolute;
+    top: 177px;
+    left: calc(50% + 600px);
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #a5a49a;
+    width: 35px;
+    height: 25px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 187px;
+    left: 1326px;
+    width: 35px;
+    height: 25px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
 }
 .map-maker-sekaran-50229-gun {
     position: absolute;
@@ -267,15 +377,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.group-child {
-    position: absolute;
-    top: 4px;
-    left: 179px;
-    border-radius: 1px;
-    width: 19.9px;
-    height: 20px;
-}
-.zoey-glenca {
+.callysta-putri {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -286,9 +388,17 @@
     width: 157px;
     height: 24px;
 }
-.div {
+.star-icon {
     position: absolute;
-    top: 1px;
+    top: 2px;
+    left: 24px;
+    border-radius: 1px;
+    width: 19.9px;
+    height: 20px;
+}
+.div3 {
+    position: absolute;
+    top: 0px;
     left: 0px;
     letter-spacing: -0.02em;
     font-weight: 500;
@@ -297,10 +407,10 @@
     width: 26px;
     height: 24px;
 }
-.div1 {
+.div4 {
     position: absolute;
     top: 0px;
-    left: 50px;
+    left: 46.88px;
     letter-spacing: -0.02em;
     font-weight: 500;
     white-space: pre-wrap;
@@ -309,7 +419,7 @@
     width: 52.3px;
     height: 23.5px;
 }
-.group-item {
+.group-icon {
     position: absolute;
     top: 6px;
     left: 72px;
@@ -317,27 +427,34 @@
     height: 11.8px;
     object-fit: cover;
 }
-.parent {
-    position: absolute;
-    top: 1px;
-    left: 155px;
-    width: 99.2px;
-    height: 25px;
-    font-size: 16px;
-    color: #90a3bf;
-}
-.zoey-glenca-parent {
+.star-parent {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 254.2px;
+    width: 99.2px;
+    height: 24px;
+}
+.group-container {
+    position: absolute;
+    top: 2px;
+    left: 165px;
+    width: 99.2px;
+    height: 24px;
+    font-size: 16px;
+    color: #90a3bf;
+}
+.callysta-putri-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 264.2px;
     height: 26px;
 }
-.star-parent {
+.group-wrapper {
     position: absolute;
     top: 59px;
     left: 137px;
-    width: 254.2px;
+    width: 264.2px;
     height: 26px;
     font-size: 25px;
     color: #1a202c;
@@ -461,7 +578,7 @@
     width: 237px;
     height: 49px;
 }
-.group-wrapper {
+.group-frame {
     position: absolute;
     top: 251px;
     left: 315px;
@@ -504,7 +621,7 @@
     width: 304px;
     height: 49px;
 }
-.group-container {
+.group-div {
     position: absolute;
     top: 311px;
     left: 315px;
@@ -530,7 +647,7 @@
     height: 24px;
     color: #1a202c;
 }
-.group-frame {
+.group-wrapper1 {
     position: absolute;
     top: 367px;
     left: 315px;
@@ -554,14 +671,14 @@
     width: 119px;
     height: 49px;
 }
-.group-wrapper1 {
+.group-wrapper2 {
     position: absolute;
     top: 427px;
     left: 315px;
     width: 119px;
     height: 49px;
 }
-.group-inner {
+.rectangle-div {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -570,7 +687,7 @@
     width: 308px;
     height: 38px;
 }
-.terima {
+.selesaikan {
     position: absolute;
     top: 0px;
     left: 22.82px;
@@ -580,18 +697,19 @@
     width: 262.7px;
     height: 37.1px;
 }
-.rectangle-parent {
+.rectangle-parent1 {
     position: absolute;
     top: 511px;
     left: 425px;
     width: 308px;
     height: 38px;
+    cursor: pointer;
     text-align: center;
     font-size: 18px;
     color: #fff;
     font-family: Manrope;
 }
-.rectangle-div {
+.group-child1 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -602,7 +720,7 @@
     width: 326px;
     height: 38px;
 }
-.tolak {
+.input-berat {
     position: absolute;
     top: 0px;
     left: 24.15px;
@@ -613,18 +731,53 @@
     width: 278px;
     height: 37.1px;
 }
-.rectangle-group {
+.rectangle-parent2 {
     position: absolute;
     top: 511px;
     left: 25px;
     width: 326px;
     height: 38px;
+    cursor: pointer;
     text-align: center;
     font-size: 18px;
     color: #1e8c45;
     font-family: Manrope;
 }
-.group-child1 {
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #1e8c45;
+    box-sizing: border-box;
+    width: 192px;
+    height: 38px;
+}
+.pantau-proses {
+    position: absolute;
+    top: 0px;
+    left: 14.22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163.7px;
+    height: 37.1px;
+}
+.rectangle-parent3 {
+    position: absolute;
+    top: 53px;
+    left: 546px;
+    width: 192px;
+    height: 38px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #1e8c45;
+    font-family: Manrope;
+}
+.group-child3 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -666,7 +819,7 @@
     width: 105.9px;
     height: 24px;
 }
-.group-icon {
+.group-child4 {
     position: absolute;
     height: 100%;
     width: 30.17%;
@@ -687,190 +840,6 @@
     height: 33.7px;
     font-size: 18px;
     color: #7e8085;
-}
-.map-maker-sekaran-50229-gun-parent {
-    position: absolute;
-    top: 291px;
-    left: 319px;
-    width: 772px;
-    height: 595px;
-    text-align: left;
-    color: #90a3bf;
-}
-.rectangle-container {
-    position: absolute;
-    top: 805px;
-    left: 1139px;
-    width: 326px;
-    height: 38px;
-    font-size: 18px;
-    color: #1e8c45;
-    font-family: Manrope;
-}
-.star-icon {
-    position: absolute;
-    top: 2px;
-    left: 24px;
-    border-radius: 1px;
-    width: 19.9px;
-    height: 20px;
-}
-.div2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    letter-spacing: -0.02em;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    width: 26px;
-    height: 24px;
-}
-.star-group {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 99.2px;
-    height: 24px;
-}
-.group-wrapper3 {
-    position: absolute;
-    top: 2px;
-    left: 165px;
-    width: 99.2px;
-    height: 24px;
-    font-size: 16px;
-    color: #90a3bf;
-}
-.callysta-putri-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 264.2px;
-    height: 26px;
-}
-.group-wrapper2 {
-    position: absolute;
-    top: 59px;
-    left: 137px;
-    width: 264.2px;
-    height: 26px;
-    font-size: 25px;
-    color: #1a202c;
-}
-.map-maker-sekaran-50229-gun-group {
-    position: absolute;
-    top: 295px;
-    left: 1114px;
-    width: 772px;
-    height: 595px;
-    text-align: left;
-    color: #90a3bf;
-}
-.group-child7 {
-    position: absolute;
-    top: -4px;
-    left: 0px;
-    border-radius: 100px;
-    background-color: #1e8c45;
-    width: 38px;
-    height: 25px;
-}
-.div4 {
-    position: absolute;
-    top: -4px;
-    left: 11px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 34.8px;
-    height: 22.4px;
-}
-.rectangle-parent2 {
-    position: absolute;
-    top: 189px;
-    left: 608px;
-    width: 38px;
-    height: 25px;
-    font-family: Manrope;
-}
-.dalam-proses {
-    position: absolute;
-    top: 185px;
-    left: 790px;
-    font-size: 30px;
-    letter-spacing: -0.03em;
-    line-height: 150%;
-    font-weight: 600;
-    color: #a5a49a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 187px;
-    height: 24px;
-    cursor: pointer;
-}
-.group-child8 {
-    position: absolute;
-    top: -4px;
-    left: 10px;
-    border-radius: 100px;
-    background-color: #a5a49a;
-    width: 38px;
-    height: 25px;
-}
-.rectangle-parent3 {
-    position: absolute;
-    top: 187px;
-    left: 981px;
-    width: 38px;
-    height: 25px;
-    font-family: Manrope;
-}
-.ditolak {
-    position: absolute;
-    top: 187px;
-    left: 1200px;
-    font-size: 30px;
-    letter-spacing: -0.03em;
-    line-height: 150%;
-    font-weight: 600;
-    color: #a5a49a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 103px;
-    height: 24px;
-    cursor: pointer;
-}
-.riwayat-pesanan {
-    position: absolute;
-    top: 177px;
-    left: 1560px;
-    font-size: 30px;
-    letter-spacing: -0.03em;
-    line-height: 150%;
-    font-weight: 600;
-    color: #a5a49a;
-    cursor: pointer;
-}
-.group-child9 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 100px;
-    background-color: #a5a49a;
-    width: 35px;
-    height: 25px;
-}
-.rectangle-parent4 {
-    position: absolute;
-    top: 187px;
-    left: 1326px;
-    width: 35px;
-    height: 25px;
-    font-family: Manrope;
 }
 .shopeepay {
     position: absolute;
@@ -893,40 +862,21 @@
 }
 .shopeepay-parent {
     position: absolute;
-    top: 715px;
-    left: 770px;
+    top: 428px;
+    left: 449px;
     width: 160.1px;
     height: 50px;
-    text-align: left;
     color: #1a202c;
 }
-.gopay {
+.map-maker-sekaran-50229-gun-parent {
     position: absolute;
-    top: 6px;
-    left: 0px;
-    letter-spacing: -0.02em;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    width: 65.8px;
-    height: 24px;
-}
-.image-3-icon {
-    position: absolute;
-    top: 0px;
-    left: 65.76px;
-    width: 33.4px;
-    height: 35px;
-    object-fit: cover;
-}
-.gopay-parent {
-    position: absolute;
-    top: 729px;
-    left: 1565px;
-    width: 99.1px;
-    height: 35px;
+    top: 265px;
+    left: 322px;
+    width: 772px;
+    height: 595px;
     text-align: left;
-    color: #1a202c;
+    font-size: 20px;
+    color: #90a3bf;
 }
 .button {
     position: absolute;
@@ -1008,126 +958,16 @@
     font-size: 14px;
     color: #3d5278;
 }
-.pesanan-masuk-vendor {
+.pesanan-dalam-proses-vendor {
     width: 100%;
     position: relative;
     background-color: #fff;
     height: 1024px;
     overflow: hidden;
     text-align: center;
-    font-size: 20px;
-    color: #fff;
+    font-size: 30px;
+    color: #a5a49a;
     font-family: 'Plus Jakarta Sans';
-}
-
-
-.pesanan-diterima {
-    position: absolute;
-    top: 40px;
-    left: calc(50% - 128.5px);
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 257px;
-    height: 39px;
-}
-.group-child10 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 15px;
-    background-color: #1e8c45;
-    width: 163.2px;
-    height: 55px;
-}
-.ok {
-    position: absolute;
-    top: 9px;
-    left: 58.5px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44.9px;
-}
-.rectangle-parent5 {
-    position: absolute;
-    top: 109px;
-    left: 72px;
-    width: 163.2px;
-    height: 55px;
-    cursor: pointer;
-    color: #fff;
-}
-.overlay-pesanan-diterima {
-    width: 307px;
-    position: relative;
-    border-radius: 15px;
-    background-color: #fff;
-    height: 202px;
-    overflow: hidden;
-    max-width: 90%;
-    max-height: 90%;
-    text-align: center;
-    font-size: 24px;
-    color: #453d3d;
-    font-family: Poppins;
-}
-
-
-.pesanan-ditolak {
-    position: absolute;
-    top: 47px;
-    left: calc(50% - 129.5px);
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 257px;
-    height: 39px;
-}
-.group-child11 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 15px;
-    background-color: #1e8c45;
-    width: 179px;
-    height: 55px;
-}
-.ok1 {
-    position: absolute;
-    top: 9px;
-    left: 64.14px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 49.2px;
-}
-.rectangle-parent6 {
-    position: absolute;
-    top: 117px;
-    left: 64px;
-    width: 179px;
-    height: 55px;
-    cursor: pointer;
-    color: #fff;
-}
-.overlay-pesanan-ditolak {
-    width: 307px;
-    position: relative;
-    border-radius: 15px;
-    background-color: #fff;
-    height: 202px;
-    overflow: hidden;
-    max-width: 90%;
-    max-height: 90%;
-    text-align: center;
-    font-size: 24px;
-    color: #453d3d;
-    font-family: Poppins;
 }
 
 
@@ -1142,7 +982,7 @@
     justify-content: center;
     width: 216px;
 }
-.group-child12 {
+.group-child5 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1158,7 +998,7 @@
     left: 38px;
     font-weight: 600;
 }
-.rectangle-parent7 {
+.rectangle-parent4 {
     position: absolute;
     top: 118px;
     left: 158px;
@@ -1167,7 +1007,7 @@
     cursor: pointer;
     color: #1e8c45;
 }
-.group-child13 {
+.group-child6 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1182,7 +1022,7 @@
     left: 43px;
     font-weight: 600;
 }
-.rectangle-parent8 {
+.rectangle-parent5 {
     position: absolute;
     top: 118px;
     left: 29px;
@@ -1206,26 +1046,3 @@
     font-family: Poppins;
 }
 
-.div5 {
-    position: absolute;
-    top: -4px;
-    left: 0px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 34.8px;
-    height: 22.4px;
-}
-  
- .div6 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 34.8px;
-    height: 22.4px;
-}

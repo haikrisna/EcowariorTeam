@@ -312,7 +312,7 @@
             						<div class="rp100000">Rp.50.000</div>
           					</div>
         				</div>
-        				<img class="image-5-icon" alt="" src="image 5.png">
+        				<img class="image-5-icon" alt="" src="img/map.png">
         				
         				<div class="group-parent6">
           					<div class="type-group">
@@ -431,7 +431,7 @@
               							<div class="dashboard1">Dashboard</div>
             						</div>
             						<div class="house" id="houseContainer">
-              							<img class="home-icon" alt="" src="img/car.png">
+              							<img class="home-icon" alt="" src="img/pesanan.png">
               							
               							<div class="pesanan1">Pesanan</div>
             						</div>
@@ -493,76 +493,35 @@
   	
   	
   	<script>
-    		var popupgroupContainer = document.getElementById("popupgroupContainer");
-    		if(popupgroupContainer) {
-      			popupgroupContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var popupgroupContainer1 = document.getElementById("popupgroupContainer1");
-    		if(popupgroupContainer1) {
-      			popupgroupContainer1.addEventListener("click", function (e) {
-        				window.location.href = "./DashboardVendor.html"
-      			});
-    		}
-    		
-    		var houseContainer = document.getElementById("houseContainer");
-    		if(houseContainer) {
-      			houseContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var insightContainer = document.getElementById("insightContainer");
-    		if(insightContainer) {
-      			insightContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var orderContainer = document.getElementById("orderContainer");
-    		if(orderContainer) {
-      			orderContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var frameContainer = document.getElementById("frameContainer");
-    		if(frameContainer) {
-      			frameContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var preferencesContainer = document.getElementById("preferencesContainer");
-    		if(preferencesContainer) {
-      			preferencesContainer.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-    		
-    		var logoutContainer = document.getElementById("logoutContainer");
-    		if(logoutContainer) {
-      			logoutContainer.addEventListener("click", function () {
-        				var popup = document.getElementById("logoutConfirmContainer");
-        				if(!popup) return;
-        				var popupStyle = popup.style;
-        				if(popupStyle) {
-          					popupStyle.display = "flex";
-          					popupStyle.zIndex = 100;
-          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
-          					popupStyle.alignItems = "center";
-          					popupStyle.justifyContent = "center";
-        				}
-        				popup.setAttribute("closable", "");
-        				
-        				var onClick = popup.onClick || function(e) {
-          					if(e.target === popup && popup.hasAttribute("closable")) {
-            						popupStyle.display = "none";
-          					}
-        				};
-        				popup.addEventListener("click", onClick);
-      			});
-    		}</script></body>
-</html>
+    // Fungsi untuk navigasi ke halaman Pesanan
+    var houseContainer = document.getElementById("houseContainer");
+    if(houseContainer) {
+        houseContainer.addEventListener("click", function (e) {
+            window.location.href = '/pesananmasuk'; // Sesuaikan dengan URL yang benar
+        });
+    }
+
+    // Fungsi untuk navigasi ke halaman Statistik
+    var insightContainer = document.getElementById("insightContainer");
+    if(insightContainer) {
+        insightContainer.addEventListener("click", function (e) {
+            window.location.href = "./StatisticsPage.html"; // Sesuaikan dengan URL yang benar
+        });
+    }
+
+    // Fungsi untuk navigasi ke halaman Dompet
+    var orderContainer = document.getElementById("orderContainer");
+    if(orderContainer) {
+        orderContainer.addEventListener("click", function (e) {
+            window.location.href = "./WalletPage.html"; // Sesuaikan dengan URL yang benar
+        });
+    }
+
+    // Fungsi untuk navigasi ke halaman Riwayat Transaksi
+    var frameContainer = document.getElementById("frameContainer");
+    if(frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+            window.location.href = "./TransactionHistoryPage.html"; // Sesuaikan dengan URL yang benar
+        });
+    }
+</script>

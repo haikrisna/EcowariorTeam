@@ -1,11 +1,15 @@
 <?php
 
-use App\Http\Controllers\EnkripsiController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PesananController;
+use App\Http\Controllers\EnkripsiController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TestviewController;
 use App\Http\Controllers\IdentifikasiController;
 use App\Http\Controllers\DateRangeController;
+use App\Http\Controllers\PrimeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +22,7 @@ use App\Http\Controllers\DateRangeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Auth::routes();

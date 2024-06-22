@@ -15,7 +15,7 @@
 .login-vendor .overlap {
     position: relative;
     height: 1024px;
-    background-image: url(./img/6060230-1.png);
+    background-image: url(img/bg.png);
     background-size: cover;
     background-position: 50% 50%;
 }

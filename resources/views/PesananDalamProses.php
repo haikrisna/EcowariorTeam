@@ -26,13 +26,13 @@
                         <form class="d-flex align-items-center">
                             <input class="form-control me-2" type="search" placeholder="Search something here" aria-label="Search">
                             <button class="btn filter-btn" aria-label="Filter">
-                                <img src="assets/icon/NavBar/filter.svg" alt="Filter">
+                                <img src="img/filter.png" alt="Filter">
                             </button>
                         </form>
                     </div>
                     <div class="notification-container">
                         <a href="#" style="display: inline-block;">
-                            <img src="assets/icon/NavBar/notification.svg" alt="Notifikasi" style="width: 45px; height: 45px;">
+                            <img src="img/notification.png" alt="Notifikasi" style="width: 45px; height: 45px;">
                         </a>
                     </div>
                 </div>
@@ -47,38 +47,38 @@
         <ul class="nav flex-column">
             <li class="nav-item">
                 <a class="nav-link active" href="#">
-                    <img src="assets\icon\SideBar\home.svg" alt="Dashboard" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/home.png" alt="Dashboard" style="width: 20px; height: 20px; margin-right: 10px;">
                     Dashboard
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link pesanan-link" href="#">
-                    <img src="assets\icon\SideBar\car.svg" alt="Pesanan" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/pesanan.png" alt="Pesanan" style="width: 20px; height: 20px; margin-right: 10px;">
                     Pesanan
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="assets\icon\SideBar\chart.svg" alt="Statistik" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/statistik.png" alt="Statistik" style="width: 20px; height: 20px; margin-right: 10px;">
                     Statistik
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="assets\icon\SideBar\wallet.svg" alt="Dompet" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/wallet.png" alt="Dompet" style="width: 20px; height: 20px; margin-right: 10px;">
                     Dompet
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="assets\icon\SideBar\calendar.svg" alt="Riwayat Transaksi" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/calendar.png" alt="Riwayat Transaksi" style="width: 20px; height: 20px; margin-right: 10px;">
                     Riwayat Transaksi
                 </a>
             </li>
             <div class="p-r-e">P R E F E R E N C E S</div>
             <li class="nav-item pengaturan">
                 <a class="nav-link" href="#">
-                    <img src="assets\icon\SideBar\setting.svg" alt="Pengaturan" style="width: 20px; height: 20px; margin-right: 10px;">
+                    <img src="img/setting.png" alt="Pengaturan" style="width: 20px; height: 20px; margin-right: 10px;">
                     Pengaturan
                 </a>
             </li>
@@ -112,7 +112,7 @@
                 <div class="menu-item">Biaya            : <span>Rp100.000</span></div>
                 <div class="menu-item">Metode Pembayaran: <span>Shopeepay</span></div>
             </div>
-            <img src="assets/icon/main/Star.svg" alt="Star Icon" class="star-icon">
+            <img src="img/Star.png" alt="Star Icon" class="star-icon">
             <!-- Rectangle baru -->
             <div class="new-rectangle">
                 Dalam Perjalanan
@@ -122,7 +122,7 @@
                 <div class="kirim-pesan">Kirim Pesan</div>
             </div>
             <!-- Tambahkan ini di dalam div .rectangle-div di HTML Anda -->
-            <img src="assets/icon/main/shopee.svg" alt="Shopee Icon" class="shopee-icon">
+            <img src="img/shopeepay.png" alt="Shopee Icon" class="shopee-icon">
         </div>
         <div class="div">4.7</div>
      </div>
