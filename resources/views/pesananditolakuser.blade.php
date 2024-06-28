@@ -94,6 +94,7 @@
         <div class="container-flex">
             <a href="#" class="permintaan-pesanan">Permintaan Pesanan</a>
             <a href="#" class="dalam-proses">Dalam Proses</a>
+            <a href="{{ route('pesananditolak') }}" class="ditolak">Ditolak</a>
             <a href="#" class="ditolak">Ditolak</a>
             <a href="#" class="beri-ulasan">Beri Ulasan</a>
         </div>

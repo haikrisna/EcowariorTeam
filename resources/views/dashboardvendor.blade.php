@@ -428,27 +428,27 @@
             						<div class="dashboard">
               							<img class="home-icon" alt="" src="img/home.png">
               							
-              							<div class="dashboard1">Dashboard</div>
+              							<div class="dashboard1"><a href="{{ route('dashboardvendor') }}" >Dashboard</a></div>
             						</div>
             						<div class="house" id="houseContainer">
               							<img class="home-icon" alt="" src="img/pesanan.png">
               							
-              							<div class="pesanan1">Pesanan</div>
+              							<div class="pesanan1"><a href="{{ route('pesananmasuk') }}" >Pesanan</a></div>
             						</div>
             						<div class="house" id="insightContainer">
               							<img class="home-icon" alt="" src="img/statistik.png">
               							
-              							<div class="statistik">Statistik</div>
+              							<div class="statistik"> <a href="{{ route('statistikvendor') }}" >Statistik</a></div>
             						</div>
             						<div class="house" id="orderContainer">
               							<img class="home-icon" alt="" src="img/wallet.png">
               							
-              							<div class="dompet">Dompet</div>
+              							<div class="dompet"><a href="{{ route('dompetvendor') }}" >Dompet</a></div>
             						</div>
             						<div class="house" id="frameContainer">
               							<img class="home-icon" alt="" src="img/calendar.png">
               							
-              							<div class="riwayat-transaksi">Riwayat Transaksi</div>
+              							<div class="riwayat-transaksi"><a href="{{ route('riwayatvendor') }}" >Riwayat Transaksi</a></div>
             						</div>
           					</div>
         				</div>
@@ -492,7 +492,7 @@
   	
   	
   	
-  	<script>
+  	{{-- <script>
     // Fungsi untuk navigasi ke halaman Pesanan
     var houseContainer = document.getElementById("houseContainer");
     if(houseContainer) {
@@ -524,4 +524,4 @@
             window.location.href = "./TransactionHistoryPage.html"; // Sesuaikan dengan URL yang benar
         });
     }
-</script>
+</script> --}}

@@ -13,6 +13,6 @@ class DalamprosesController extends Controller
      */
     public function index()
     {
-        return view('PesananDalamProses');
+        return view('pesanandalamproses');
     }
 }

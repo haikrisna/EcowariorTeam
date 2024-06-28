@@ -26,27 +26,27 @@
             						<div class="dashboard" id="dashboardContainer">
               							<img class="home-icon" alt="" src="img/home.png">
               							
-              							<div class="dashboard1">Dashboard</div>
+              							<div class="dashboard1"><a href="{{ route('dashboardvendor') }}" >Dashboard</a></div>
             						</div>
             						<div class="house">
               							<img class="home-icon" alt="" src="img/car.png">
               							
-              							<div class="pesanan">Pesanan</div>
+              							<div class="pesanan1"><a href="{{ route('pesananmasuk') }}" >Pesanan</a></div>
             						</div>
             						<div class="dashboard" id="insightContainer">
               							<img class="home-icon" alt="" src="img/statistik.png">
               							
-              							<div class="statistik">Statistik</div>
+              							<div class="statistik"> <a href="{{ route('statistikvendor') }}" >Statistik</a></div>
             						</div>
             						<div class="dashboard" id="orderContainer">
               							<img class="home-icon" alt="" src="img/wallet.png">
               							
-              							<div class="dompet">Dompet</div>
+              							<div class="dompet"><a href="{{ route('dompetvendor') }}" >Dompet</a></div>
             						</div>
             						<div class="dashboard" id="frameContainer">
               							<img class="home-icon" alt="" src="img/calendar.png">
               							
-              							<div class="riwayat-transaksi">Riwayat Transaksi</div>
+              							<div class="riwayat-transaksi"><a href="{{ route('riwayatvendor') }}" >Riwayat Transaksi</a></div>
             						</div>
           					</div>
         				</div>
@@ -69,7 +69,7 @@
     		</div>
     		<div class="pesanan-dalam-proses-vendor-child">
     		</div>
-    		<div class="pesanan-masuk" id="pesananMasukText">Pesanan Masuk</div>
+    		<b class="pesanan-masuk"><a href="{{ route('pesananmasuk') }}" >Pesanan Masuk</a></b>
     		<div class="pesanan-dalam-proses-vendor-item">
     		</div>
     		<div class="rectangle-parent">
@@ -77,19 +77,19 @@
       			</div>
       			<div class="div">+2</div>
     		</div>
-    		<b class="dalam-proses">Dalam Proses</b>
+    		<div class="dalam-proses" id="dalamProsesText"><a href="{{ route('pesanandalamproses') }}" >DalamProses</a></div>
     		<div class="rectangle-group">
       			<div class="group-item">
       			</div>
       			<div class="div1">1</div>
     		</div>
-    		<div class="ditolak" id="ditolakText">Ditolak</div>
-    		<div class="riwayat-pesanan" id="riwayatPesananText">Riwayat Pesanan</div>
+    		<div class="ditolak" id="ditolakText"><a href="{{ route('pesananditolak') }}" >Ditolak</a></div>
+    		{{-- <div class="riwayat-pesanan" id="riwayatPesananText">Riwayat Pesanan</div>
     		<div class="rectangle-container">
       			<div class="group-inner">
       			</div>
       			<div class="div">1</div>
-    		</div>
+    		</div> --}}
     		<div class="map-maker-sekaran-50229-gun-parent">
       			<img class="map-maker-sekaran-50229-gun" alt="" src="img/map2.png">
       			

@@ -17,16 +17,16 @@
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Dashboard</a>
+                            <div class="dashboard1"><a href="{{ route('dashboardvendor') }}" >Dashboard</a></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pesanan</a>
+                            <div class="pesanan1"><a href="{{ route('pesananmasuk') }}" >Pesanan</a></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Statistik</a>
+                            <div class="statistik"> <a href="{{ route('statistikvendor') }}" >Statistik</a></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Riwayat Transaksi</a>
+                            <div class="dompet"><a href="{{ route('dompetvendor') }}" >Dompet</a></div>
                         </li>
                     </ul>
                     <div class="mt-4">

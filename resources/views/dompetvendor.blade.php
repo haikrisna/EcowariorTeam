@@ -16,11 +16,11 @@
                 <h3>EcoTrade</h3>
             </div>
             <ul class="list-unstyled">
-                <li><a href="#" class="sidebar-link">Dashboard</a></li>
-                <li><a href="#" class="sidebar-link">Pesanan</a></li>
-                <li><a href="#" class="sidebar-link">Statistik</a></li>
-                <li><a href="#" class="sidebar-link active">Dompet</a></li>
-                <li><a href="#" class="sidebar-link">Riwayat Transaksi</a></li>
+                <div class="dashboard1"><a href="{{ route('dashboardvendor') }}" >Dashboard</a></div>
+                <div class="pesanan1"><a href="{{ route('pesananmasuk') }}" >Pesanan</a></div>
+                <div class="statistik"> <a href="{{ route('statistikvendor') }}" >Statistik</a></div>
+                <div class="dompet"><a href="{{ route('dompetvendor') }}" >Dompet</a></div>
+                <div class="riwayat-transaksi"><a href="{{ route('riwayatvendor') }}" >Riwayat Transaksi</a></div>
                 <li><a href="#" class="sidebar-link">Settings</a></li>
                 <li><a href="#" class="sidebar-link">Log Out</a></li>
             </ul>
