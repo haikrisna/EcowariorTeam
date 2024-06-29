@@ -28,7 +28,7 @@ use App\Http\Controllers\DompetController;
 */
 
 Route::get('/', function () {
-    return view('dashboardvendor');
+    return view('signup');
 });
 
 Auth::routes();

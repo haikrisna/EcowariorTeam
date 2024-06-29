@@ -21,7 +21,7 @@
                             <img class="line" src="img/line-5.svg" />
                             <img class="img" src="img/line-6.svg" />
                             <div class="overlap-group-wrapper">
-                                <div class="overlap-group-2"><div class="text-wrapper-5">SIGN UP AS VENDOR</div></div>
+                                <div class="overlap-group-2"><div class="text-wrapper-5"><a href="{{ route('dashboardvendor') }}" >SIGN UP AS VENDOR</a></div></div>
                             </div>
                             <div class="group-2">
                                 <div class="overlap-3"><div class="text-wrapper-5">SIGN UP AS USER</div></div>
