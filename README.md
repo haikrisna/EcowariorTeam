@@ -48,7 +48,7 @@ Follow these steps below to run the project on your local machine:
     php artisan serve
     ```
 
-9. Open http://localhost:8000 to see the result
+9. Open http://localhost:8000
 
 </br>
 
